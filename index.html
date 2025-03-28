@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>STOIC AI Insights</title>
+  <meta name="title" content="STOIC AI Insights">
+  <meta name="description" content="This is a personal portfolio of Akshat Bhardwaj">
+  <script src="https://kit.fontawesome.com/8f70d9a32d.js" crossorigin="anonymous"></script>
+
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./images/1.jpg" type="image">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./images/1.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#home" class="logo">
+        <img src="./images/1.jpg" width="40" height="40" alt="STOIC home">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+
+          <li>
+            <a href="#latest-posts" class="navbar-link">Articles</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <!-- Hero Section with Video Background -->
+<section class="hero">
+  <div class="video-background">
+    <video autoplay muted loop playsinline>
+      <source src="/images/background-video.mp4" type="video/mp4">
+      <!-- Fallback image if video doesn't load -->
+      <img src="fallback-image.jpg" alt="Abstract tech background">
+    </video>
+    <div class="video-overlay"></div>
+  </div>
+  
+  <div class="container">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <span class="text-lg">STOIC AI</span>
+        <span>INSIGHTS</span>
+      </h1>
+      <p class="hero-subtitle">A platform where technology meets innovative artificial intelligence.</p>
+      <a href="#contact" class="btn">
+        <span>Get Started</span>
+        <ion-icon name="arrow-forward-outline"></ion-icon>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- Add this to your HTML file (before the footer section) -->
+<section class="latest-posts" id="blog" aria-labelledby="blog-label">
+  <div class="container">
+    <div class="title-wrapper">
+      <div>
+        <p class="section-subtitle">Insights & Updates</p>
+        <h2 class="h2 section-title" id="blog-label">Latest Posts</h2>
+      </div>
+      <p class="section-text">
+        Cutting-edge perspectives on AI, startups, and strategic thinking from the STOIC team.
+      </p>
+    </div>
+
+    <div class="posts-grid">
+      <!-- Post 1 -->
+      <article class="post-card">
+        <div class="post-image">
+          <img src="./images/post-1.jpg" alt="The Future of AI in Startups" loading="lazy">
+          <div class="post-tag">Strategy</div>
+        </div>
+        <div class="post-content">
+          <time datetime="2023-11-15">Nov 15, 2023</time>
+          <h3 class="h3 post-title">The Future of AI in Startup Growth</h3>
+          <p class="post-excerpt">
+            How emerging AI tools are revolutionizing customer acquisition and operational efficiency for early-stage companies.
+          </p>
+          <a href="#" class="post-link" aria-label="Read more about The Future of AI in Startups">
+            <span>Read Post</span>
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </a>
+        </div>
+      </article>
+
+      <!-- Post 2 -->
+      <article class="post-card">
+        <div class="post-image">
+          <img src="./images/post-2.jpg" alt="Lean Startup Tactics" loading="lazy">
+          <div class="post-tag">Tactics</div>
+        </div>
+        <div class="post-content">
+          <time datetime="2023-11-08">Nov 8, 2023</time>
+          <h3 class="h3 post-title">Lean Tactics for Resource-Strapped Founders</h3>
+          <p class="post-excerpt">
+            Proven methods to achieve maximum impact with minimal resources in your first 90 days.
+          </p>
+          <a href="#" class="post-link" aria-label="Read more about Lean Startup Tactics">
+            <span>Read Post</span>
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </a>
+        </div>
+      </article>
+
+      <!-- Post 3 -->
+      <article class="post-card">
+        <div class="post-image">
+          <img src="./images/post-3.jpg" alt="Market Disruption" loading="lazy">
+          <div class="post-tag">Innovation</div>
+        </div>
+        <div class="post-content">
+          <time datetime="2023-11-01">Nov 1, 2023</time>
+          <h3 class="h3 post-title">Identifying Untapped Market Opportunities</h3>
+          <p class="post-excerpt">
+            Framework for spotting and capitalizing on market gaps before competitors take notice.
+          </p>
+          <a href="#" class="post-link" aria-label="Read more about Market Disruption">
+            <span>Read Post</span>
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </a>
+        </div>
+      </article>
+    </div>
+
+    <div class="view-all">
+      <a href="#" class="btn has-before">
+        <span class="span">View All Articles</span>
+        <ion-icon name="chevron-forward-outline"></ion-icon>
+      </a>
+    </div>
+  </div>
+</section>
+
+  <!-- 
+    - #FOOTER
+  -->
+  <footer class="ai-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-left">
+          <h2 class="footer-title">Evolving AI Insights</h2>
+          <p class="footer-subtitle">Stay ahead with AI insights delivered every Monday, Wednesday and Friday.</p>
+          <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-telegram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <p class="copyright">© 2025 Evolving AI Insights.</p>
+        </div>
+        
+        <div class="footer-middle">
+          <div class="footer-links">
+            <h4 class="links-heading">Quick Links</h4>
+            <a href="#home" class="footer-link">Home</a>
+            <a href="#posts" class="footer-link">Posts</a>
+          </div>
+          <div class="footer-links">
+            <h4 class="links-heading">Other</h4>
+            <a href="#" class="footer-link">Unsubscribe</a>
+            <a href="#" class="footer-link">Referral</a>
+          </div>
+        </div>
+        
+        <div class="footer-right">
+          <h3 class="email-title">Enter Your Email</h3>
+          <form class="email-form">
+            <input type="email" placeholder="Your email address" required>
+            <button type="submit">Subscribe</button>
+          </form>
+          <div class="legal-links">
+            <a href="#" class="legal-link">Privacy Policy</a>
+            <a href="#" class="legal-link">Terms of Use</a>
+          </div>
+          <p class="powered-by">Powered by <a href="#" target="_blank">STOIC</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!-- Add this to your HTML file before the closing </body> tag -->
+</body>
+
+</html>
